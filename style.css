@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+body{
+    background-image: linear-gradient(to right, #ffefba, #ffffff);
+}
+h1{
+    background: linear-gradient(to right, #dc2424, #4a569d);
+    width: 200px;
+    color: white;
+    margin-left: 500px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size:3rem;
+}
+h4{
+    border:black solid;
+    padding-left: 20px;
+    width: 100px;
+    font-size: x-large;
+    margin-left: 20px;
+    font-family:'Goldman' ;
+    background-image: linear-gradient(to right, #ec008c, #fc6767);
+}
+img{
+    border:2px black solid;
+}
