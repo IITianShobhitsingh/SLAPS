@@ -1,6 +1,13 @@
+h5{
+    margin-top: 0;
+    font-size: 1.5rem;
+}
 .stats{
     border: 5px black solid;
     height: 300px;
+}
+#alert{
+    margin-top: 10px;
 }
 #button{
     margin-top:20px;
