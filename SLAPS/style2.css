@@ -1,11 +1,33 @@
-
+body{
+    background: linear-gradient(90deg, hsla(189, 86%, 64%, 1) 0%, hsla(277, 67%, 77%, 1) 50%, hsla(218, 88%, 59%, 1) 100%);
+}
+h1{
+    background: linear-gradient(90deg, hsla(57, 100%, 84%, 1) 0%, hsla(280, 84%, 55%, 1) 100%);
+    border: black solid;
+    border-radius: 30px;
+    background: linear-gradient(90deg, hsla(113, 96%, 81%, 1) 0%, hsla(188, 90%, 51%, 1) 100%);
+    width: 200px;
+    margin-left: 525px;
+}
+.head{
+    background: linear-gradient(90deg, hsla(307, 93%, 84%, 1) 0%, hsla(256, 96%, 44%, 1) 100%);
+    border: black solid;
+    border-radius: 30px;
+    margin: 10px;
+}
+h4{
+    margin-bottom:5px;
+}
 h5{
     margin-top: 0;
+    margin-bottom: 10px;
     font-size: 1.5rem;
 }
 .stats{
+    background: linear-gradient(90deg, hsla(57, 100%, 84%, 1) 0%, hsla(280, 84%, 55%, 1) 100%);
     border: 3px black solid;
     height: 300px;
+    border-radius: 30px;
 }
 #alert{
     margin-top: 10px;
@@ -31,5 +53,9 @@ h5{
     padding: 10px;
     width: 100px;
 }
-
+.day{
+    display:inline;
+    margin: 15px;
+    
+}
  
