@@ -1,4 +1,9 @@
- var Btn = document.querySelector("#button");
- console.log(Btn);
- var caution=document.forms("input[type=time]").value
- console.log(caution);
+var select = document.getElementById("timeManager");
+console.log(select)
+select.addEventListener('submit',function(e){
+    e.preventDefault
+    var eros = select.querySelector('input[type="text"]').value
+    console.log(eros)
+})
+
+
