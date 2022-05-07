@@ -35,19 +35,28 @@
                 <rect x="445" y="50" width="30px" height="150px" style="fill:blue" />
                 <rect x="525" y="50" width="30px" height="150px" style="fill:blue" />            
             </svg>
+            
         </svg>
     </div>
     <hr>
-    <hr>
-    <form  id="timeManager">
-        <div id="alert" align="center">
-            <label>CAUTION TIME</label>
-            <input type="time" required placeholder="Hours:minute">
-        </div>
-        <div id="button" align="center">
-            <input type="submit" value="SET">
-        </div>
+    <form  align="center" id="alarm">
+      <div calss="alarm">
+        <label>HOURS</label>
+        <input type="number" required calss="first">
+      </div>
+      <div calss="alarm">
+        <label>MINUTES</label>
+        <input type="number" required calss="second">
+      </div>
+      <div calss="alarm">
+        <label>SECONDS</label>
+        <input type="number" required calss="third">
+      </div>
+      <div calss="alarm">
+        <input type="submit" value="SET">
+      </div>
     </form>
+  
 
 </body>
 <script src="time.js"></script>

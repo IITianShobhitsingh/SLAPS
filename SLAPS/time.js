@@ -1,9 +1,12 @@
-var select = document.getElementById("timeManager");
-console.log(select)
-select.addEventListener('submit',function(e){
-    e.preventDefault
-    var eros = select.querySelector('input[type="time"]').value
-    console.log(eros)
-    alert("Your "+ eros + " hour time starts now!!")
-    localStorage.setItem('time',eros);
+var addBtn=document.querySelector("#alarm");
+console.log(addBtn)
+var chill = addBtn.querySelector('input[type="number"] .first')
+console.log(chill);
+Array.from(chill).forEach(function(e){
+  
 })
+
+
+
+  
+ 
