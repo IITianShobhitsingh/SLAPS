@@ -7,7 +7,7 @@ h1{
     border-radius: 30px;
     background: linear-gradient(90deg, hsla(113, 96%, 81%, 1) 0%, hsla(188, 90%, 51%, 1) 100%);
     width: 200px;
-    margin-left: 525px;
+    margin-left: 40%;
 }
 .head{
     background: linear-gradient(90deg, hsla(307, 93%, 84%, 1) 0%, hsla(256, 96%, 44%, 1) 100%);
@@ -26,7 +26,7 @@ h5{
 .stats{
     background: linear-gradient(90deg, hsla(57, 100%, 84%, 1) 0%, hsla(280, 84%, 55%, 1) 100%);
     border: 3px black solid;
-    height: 300px;
+    height: 350px;
     border-radius: 30px;
 }
 #alert{
@@ -45,17 +45,23 @@ h5{
     cursor: pointer;
 }
 #alarm{
-    margin-left: 300px;
     margin: 10px;
     width: 20px;
+    margin-top: 50px;
 }
 .alarm{
-    padding: 10px;
+    padding:50px;
     width: 100px;
 }
 .day{
     display:inline;
-    margin: 15px;
+    margin: 23px;
+
+}
+rect:hover{
+    cursor: pointer;
+    fill:violet;
+    stroke: black;
     
 }
  
