@@ -49,25 +49,16 @@
       <p class="day" id="sat">SAT</p>
       <p class="day" id="sun">SUN</p>
     </div>
-    <form  align="center" id="alarm">
-      <div calss="alarm">
-        <label>HOURS</label>
-        <input type="number" required calss="first">
-      </div>
-      <div calss="alarm">
-        <label>MINUTES</label>
-        <input type="number" required calss="second">
-      </div>
-      <div calss="alarm">
-        <label>SECONDS</label>
-        <input type="number" required calss="third">
-      </div>
-      <div calss="alarm">
-        <input type="submit" value="SET">
-      </div>
+  <div class="form">
+    <form action="post">
+      <input type="text" placeholder="Name" id="name" autocomplete="off" >
+      <input type="email" placeholder="Email" id="email"autocomplete="off">
+      <input type="time" placceholder="Time" autocomplete="off" min="00:00" max="10:00">
+      <button id="btn">SEND</button>
     </form>
-  
-
+  </div>
 </body>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
 <script src="time.js"></script>
 </html>
