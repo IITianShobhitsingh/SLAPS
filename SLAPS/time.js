@@ -21,7 +21,7 @@ btn.addEventListener('click',function(e){
       message => alert("YOUR TIME STARTS NOW !")
     );
 })
-
+console.log(localstorage.getItem('start-time'));
 
 
 

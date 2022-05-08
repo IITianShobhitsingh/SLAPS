@@ -26,7 +26,7 @@ h5{
 .stats{
     background: linear-gradient(90deg, hsla(57, 100%, 84%, 1) 0%, hsla(280, 84%, 55%, 1) 100%);
     border: 3px black solid;
-    height: 350px;
+    height: 300px;
     border-radius: 30px;
 }
 #alert{
