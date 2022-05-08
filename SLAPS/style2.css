@@ -44,11 +44,7 @@ h5{
 #button :hover{
     cursor: pointer;
 }
-.day{
-    display:inline;
-    margin: 23px;
-
-}
+ 
 rect:hover{
     cursor: pointer;
     fill:violet;
